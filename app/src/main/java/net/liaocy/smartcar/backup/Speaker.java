@@ -14,7 +14,7 @@ public class Speaker extends Thread{
 
     private TextToSpeech speech;
 
-    private final String TAG = "Speaker";
+    private final String TAG = "BizSpeaker";
 
     public Speaker(Application context){
         super();
@@ -30,7 +30,7 @@ public class Speaker extends Thread{
                     if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                         Log.e(TAG, "Not support this language.");
                     } else {
-                        Log.i(TAG, "Speaker activated!");
+                        Log.i(TAG, "BizSpeaker activated!");
 
 
                     }

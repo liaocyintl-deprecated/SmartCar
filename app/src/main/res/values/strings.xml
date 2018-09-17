@@ -3,4 +3,13 @@
     <string name="txtMsg">TextView</string>
     <string name="btnspeak">btnspeak</string>
     <string name="btnspeakflush">btnspeakflush</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_dashboard">Dash.</string>
+    <string name="tab_navigation">Navi.</string>
+    <string name="tab_OBD">OBD</string>
+    <string name="tab_sensor">Sensor</string>
+    <string name="tab_audio">Audio</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="txtAccelerationTitle">Acceleration:</string>
 </resources>

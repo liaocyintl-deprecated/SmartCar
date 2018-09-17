@@ -1,10 +1,7 @@
 package net.liaocy.smartcar.activity;
 
-import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +12,7 @@ import net.liaocy.smartcar.AppContext;
 import net.liaocy.smartcar.R;
 
 
-public class Dashboard extends Fragment {
+public class Navigation extends Fragment {
 
     private final String TAG = "Dashboard";
     private Button btnSpeak, btnSpeakFlush;
@@ -26,7 +23,7 @@ public class Dashboard extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_dashboard, container, false);
+        View rootView = inflater.inflate(R.layout.activity_navigation, container, false);
         return rootView;
     }
 
